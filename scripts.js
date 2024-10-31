@@ -4,6 +4,8 @@ const getUrl = "http://88.80.135.252:5000/linkvertise_gen_key?hash=92BjWErQAbZVz
 document.getElementById('generateButton').addEventListener('click', generateKey);
 
 async function generateKey() {
+    console.log('Button clicked!');  // Add this line to check if the function is called
+
     const headers = {
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
         'Content-Type': 'application/x-www-form-urlencoded',
