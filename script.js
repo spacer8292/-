@@ -1,5 +1,5 @@
-const postUrl = "http://88.80.135.252:5000/generate_key";
-const getUrl = "http://88.80.135.252:5000/linkvertise_gen_key?hash=92BjWErQAbZVzNEobkYsMECfLCjGzq7FQrptGFbQzcTsXQl7jIHjLYPNZurXniZh";
+const postUrl = "https://cors-anywhere.herokuapp.com/http://88.80.135.252:5000/generate_key";
+const getUrl = "https://cors-anywhere.herokuapp.com/http://88.80.135.252:5000/linkvertise_gen_key?hash=92BjWErQAbZVzNEobkYsMECfLCjGzq7FQrptGFbQzcTsXQl7jIHjLYPNZurXniZh";
 
 document.getElementById('generateButton').addEventListener('click', generateKey);
 
